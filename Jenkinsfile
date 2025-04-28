@@ -1,10 +1,6 @@
 pipeline {
     agent { label 'local' }  // Đặt đúng label của Node bạn đã tạo (ví dụ: 'local')
 
-    tools {
-        maven 'Maven_3.9.9'   
-        jdk 'jdk-17'          
-    }
 
     stages {
         stage('Checkout Code') {
