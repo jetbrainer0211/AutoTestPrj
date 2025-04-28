@@ -28,9 +28,10 @@ public class iFramePage extends BasePage {
 
         WebElement inputElement = waitForElementVisible(getDriver(), bodyEditor);
         inputElement.clear();
+        inputElement.sendKeys(Keys.chord(Keys.META, "b"));
         inputElement.sendKeys(text);
-        inputElement.sendKeys(Keys.chord(Keys.CONTROL, "b"));
-        inputElement.sendKeys(Keys.chord(Keys.CONTROL, "i"));
+
+
 
         getDriver().switchTo().defaultContent();
     }
