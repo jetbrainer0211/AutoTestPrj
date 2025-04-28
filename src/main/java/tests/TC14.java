@@ -14,7 +14,7 @@ public class TC14 extends BaseTest {
     @Test(dataProvider = "hoverData")
     public void hoverAndClickMenuTest(String firstMenu, String secondMenu) throws IOException {
         JQueryUI JQueryUI = new JQueryUI(getDriver());
-        JQueryUI.navigateToPage("https://the-internet.herokuapp.com/jqueryui/menu1");
+        JQueryUI.navigateToPage("https://the-internet.herokuapp.com/jqueryui/menu");
         JQueryUI.navigateAndClick(firstMenu, secondMenu);
     }
 
