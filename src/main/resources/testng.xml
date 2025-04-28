@@ -10,7 +10,7 @@
     <test name="Edge Tests">
         <parameter name="browserName" value="MicrosoftEdge"/>
         <classes>
-            <class name="tests.TC01"/>
+<!--            <class name="tests.TC01"/>-->
 <!--            <class name="tests.TC02"/>-->
 <!--            <class name="tests.TC03"/>-->
 <!--            <class name="tests.TC04"/>-->
@@ -24,6 +24,7 @@
 <!--            <class name="tests.TC12"/>-->
 <!--            <class name="tests.TC13"/>-->
 <!--            <class name="tests.TC14"/>-->
+            <class name="tests.TC15"/>
 
 
         </classes>
@@ -46,6 +47,7 @@
 <!--            <class name="tests.TC12"/>-->
 <!--            <class name="tests.TC13"/>-->
 <!--            <class name="tests.TC14"/>-->
+<!--            <class name="tests.TC15"/>-->
 
 
         </classes>

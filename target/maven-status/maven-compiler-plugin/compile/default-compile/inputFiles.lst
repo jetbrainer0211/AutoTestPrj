@@ -5,6 +5,7 @@
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/pages/LoginPage.java
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/pages/SliderPage.java
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/tests/TC04.java
+/Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/pages/iFramePage.java
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/pages/TablePage.java
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/tests/TC01.java
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/utils/ActionKeywords.java
@@ -27,6 +28,7 @@
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/pages/AlertPage.java
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/core/BasePage.java
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/core/BaseTest.java
+/Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/tests/TC15.java
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/tests/TC07.java
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/tests/TC11.java
 /Users/hoangth16.dls/jenkins-agent/workspace/AutoTestPrj/src/main/java/pages/WindowPage.java
