@@ -15,7 +15,7 @@ public class TC01 extends BaseTest {
     public void test(String name, String pass, String message) throws IOException {
         LoginPage loginPage = new LoginPage(getDriver());
 
-        loginPage.navigateToPage("https://the-internet.herokuapp.com/login1");
+        loginPage.navigateToPage("https://the-internet.herokuapp.com/login");
         loginPage.login(name, pass);
         loginPage.verifyMessage(message);
     }
