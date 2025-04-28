@@ -14,7 +14,7 @@ public class TC15 extends BaseTest {
     @Test(dataProvider = "inputData")
     public void test(String inputText) throws IOException {
         iFramePage iframe = new iFramePage(getDriver());
-        iframe.navigateToPage("https://www.tiny.cloud/docs/tinymce/latest/basic-example/");
+        iframe.navigateToPage("https://www.tiny.cloud/docs/tinymce/latest/basic-example1s/");
         iframe.inputTextToTinyMCE(inputText);
     }
 
