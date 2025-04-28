@@ -1,6 +1,9 @@
 pipeline {
-    agent { label 'local' }  // Đặt đúng label của Node bạn đã tạo (ví dụ: 'local')
+    agent { label 'local' }
 
+    tools {
+        allure 'allure'  
+    }
 
     stages {
         stage('Checkout Code') {
@@ -13,16 +16,16 @@ pipeline {
                 sh 'mvn clean test'
             }
         }
-        stage('Allure Report Generation') {
-            steps {
-                allure includeProperties: false, jdk: '', results: [[path: 'target/allure-results']]
-            }
-        }
     }
 
     post {
         always {
             junit 'target/surefire-reports/*.xml'
+            allure([
+                includeProperties: false,
+                jdk: '',
+                results: [[path: 'target/allure-results']]
+            ])
             archiveArtifacts artifacts: '**/target/*.jar', allowEmptyArchive: true
         }
     }
