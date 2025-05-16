@@ -72,6 +72,9 @@
     <build>
         <plugins>
             <!-- Compiler Plugin -->
+            <!--  Nó thay thế cho cú pháp cũ:
+            <source>17</source>
+            <target>17</target>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -82,6 +85,7 @@
             </plugin>
 
             <!-- Surefire Plugin with Allure support -->
+            <!-- use to enable mvn clean test-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
