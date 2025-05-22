@@ -4,37 +4,11 @@
     <listeners>
         <listener class-name="core.Listener"/>
     </listeners>
-<!--    <listeners>-->
-<!--        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>-->
-<!--    </listeners>-->
-    <test name="Edge Tests">
-        <parameter name="browserName" value="MicrosoftEdge"/>
-        <classes>
-<!--            <class name="tests.TC01"/>-->
-<!--            <class name="tests.TC02"/>-->
-<!--            <class name="tests.TC03"/>-->
-<!--            <class name="tests.TC04"/>-->
-<!--            <class name="tests.TC05"/>-->
-<!--            <class name="tests.TC06"/>-->
-<!--            <class name="tests.TC07"/>-->
-<!--            <class name="tests.TC08"/>-->
-<!--            <class name="tests.TC09"/>-->
-<!--            <class name="tests.TC10"/>-->
-<!--            <class name="tests.TC11"/>-->
-<!--            <class name="tests.TC12"/>-->
-<!--            <class name="tests.TC13"/>-->
-<!--            <class name="tests.TC14"/>-->
-            <class name="tests.TC15"/>
-
-
-        </classes>
-    </test>
-
-    <test name="Chrome Tests">
+    <test name="chrome Tests">
         <parameter name="browserName" value="chrome"/>
         <classes>
-<!--            <class name="tests.TC01"/>-->
-<!--            <class name="tests.TC02"/>-->
+            <class name="tests.TC01"/>
+            <class name="tests.TC02"/>
 <!--            <class name="tests.TC03"/>-->
 <!--            <class name="tests.TC04"/>-->
 <!--            <class name="tests.TC05"/>-->
@@ -47,10 +21,29 @@
 <!--            <class name="tests.TC12"/>-->
 <!--            <class name="tests.TC13"/>-->
 <!--            <class name="tests.TC14"/>-->
-<!--            <class name="tests.TC15"/>-->
-
-
+<!--            <class name="tests.TC14"/>-->
         </classes>
     </test>
 
+
+    <test name="edge Tests">
+        <parameter name="browserName" value="MicrosoftEdge"/>
+        <classes>
+            <class name="tests.TC01"/>
+            <class name="tests.TC02"/>
+<!--            <class name="tests.TC03"/>-->
+<!--            <class name="tests.TC04"/>-->
+<!--            <class name="tests.TC05"/>-->
+<!--            <class name="tests.TC06"/>-->
+<!--            <class name="tests.TC07"/>-->
+<!--            <class name="tests.TC08"/>-->
+<!--            <class name="tests.TC09"/>-->
+<!--            <class name="tests.TC10"/>-->
+<!--            <class name="tests.TC11"/>-->
+<!--            <class name="tests.TC12"/>-->
+<!--            <class name="tests.TC13"/>-->
+<!--            <class name="tests.TC14"/>-->
+<!--            <class name="tests.TC14"/>-->
+        </classes>
+    </test>
 </suite>
