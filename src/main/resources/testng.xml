@@ -9,8 +9,8 @@
         <classes>
             <class name="tests.TC01"/>
             <class name="tests.TC02"/>
-<!--            <class name="tests.TC03"/>-->
-<!--            <class name="tests.TC04"/>-->
+            <class name="tests.TC03"/>
+            <class name="tests.TC04"/>
 <!--            <class name="tests.TC05"/>-->
 <!--            <class name="tests.TC06"/>-->
 <!--            <class name="tests.TC07"/>-->
@@ -29,8 +29,8 @@
     <test name="edge Tests">
         <parameter name="browserName" value="MicrosoftEdge"/>
         <classes>
-            <class name="tests.TC01"/>
-            <class name="tests.TC02"/>
+<!--            <class name="tests.TC01"/>-->
+<!--            <class name="tests.TC02"/>-->
 <!--            <class name="tests.TC03"/>-->
 <!--            <class name="tests.TC04"/>-->
 <!--            <class name="tests.TC05"/>-->
