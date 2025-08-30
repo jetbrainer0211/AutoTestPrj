@@ -1,5 +1,5 @@
 pipeline {
-    agent ana
+    agent any
 
     tools {
         allure 'allure'  
